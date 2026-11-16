@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartilla Interactiva - Discursos de Odio y Misoginia</title>
+
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header>
+<h1>Discursos de Odio y Misoginia en Redes Sociales</h1>
+<p>Cartilla Educativa Interactiva</p>
+</header>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#pregunta">Pregunta</a>
+<a href="#caso">Caso</a>
+<a href="#conceptos">Conceptos</a>
+<a href="#leyes">Normatividad</a>
+<a href="#riesgos">Riesgos</a>
+<a href="#prevencion">Prevención</a>
+<a href="#chat">Valentina IA</a>
+</nav>
+
+<section id="inicio">
+
+<h2>Bienvenida</h2>
+
+<p>
+Esta cartilla educativa aborda los discursos de odio y la misoginia en redes sociales como formas de violencia digital y violencia de género.
+</p>
+
+<p>
+Su objetivo es promover una participación digital crítica, responsable y respetuosa de los derechos humanos.
+</p>
+
+</section>
+
+<section id="pregunta">
+
+<h2>Pregunta de Investigación</h2>
+
+<div class="card">
+
+¿De qué manera los discursos de odio y la misoginia en redes sociales constituyen una forma de violencia de género contra las mujeres?
+
+</div>
+
+</section>
+
+<section id="caso">
+
+<h2>Caso de Valentina</h2>
+
+<div class="card">
+
+Valentina comparte contenidos sobre igualdad de género en sus redes sociales.
+
+Después de hacerlo recibe comentarios ofensivos, amenazas y ataques digitales. También se comparten datos personales sin autorización.
+
+Este caso permite reflexionar sobre las formas de violencia digital y los riesgos que enfrentan muchas mujeres en internet.
+
+</div>
+
+</section>
+
+<section id="conceptos">
+
+<h2>Conceptos Claves</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Discursos de Odio</h3>
+<p>
+Mensajes que atacan o discriminan a personas o grupos por características relacionadas con identidad, género u otras condiciones.
+</p>
+</div>
+
+<div class="card">
+<h3>Misoginia</h3>
+<p>
+Rechazo, desprecio o hostilidad hacia las mujeres.
+</p>
+</div>
+
+<div class="card">
+<h3>Ciberacoso</h3>
+<p>
+Conductas reiteradas de hostigamiento mediante medios digitales.
+</p>
+</div>
+
+<div class="card">
+<h3>Doxxing</h3>
+<p>
+Difusión de información personal sin consentimiento.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="leyes">
+
+<h2>Normatividad</h2>
+
+<div class="card">
+<h3>Ley 1257 de 2008</h3>
+<p>Prevención y sanción de la violencia contra las mujeres.</p>
+</div>
+
+<div class="card">
+<h3>Ley 1482 de 2011</h3>
+<p>Protección frente a discriminación y hostigamiento.</p>
+</div>
+
+<div class="card">
+<h3>Convención de Belém do Pará</h3>
+<p>Protección internacional de los derechos de las mujeres.</p>
+</div>
+
+</section>
+
+<section id="riesgos">
+
+<h2>Riesgos y Consecuencias</h2>
+
+<div class="card">
+
+<ul>
+<li>Ansiedad</li>
+<li>Estrés</li>
+<li>Aislamiento social</li>
+<li>Problemas académicos</li>
+<li>Reducción de la participación digital</li>
+</ul>
+
+</div>
+
+</section>
+
+<section id="prevencion">
+
+<h2>Cómo Prevenir y Actuar</h2>
+
+<div class="card">
+
+✅ Guardar evidencias
+
+✅ Reportar contenidos
+
+✅ Bloquear usuarios agresores
+
+✅ Buscar apoyo institucional
+
+✅ Denunciar cuando sea necesario
+
+</div>
+
+</section>
+
+<section id="chat">
+
+<h2>Valentina IA</h2>
+
+<div id="chatbot">
+
+<div id="chat-header">
+🤖 Asistente Virtual
+</div>
+
+<div id="chat-body">
+
+<div class="bot">
+Hola. Soy Valentina IA.
+Pregúntame sobre discursos de odio, misoginia y violencia digital.
+</div>
+
+</div>
+
+<div id="chat-footer">
+
+<input
+type="text"
+id="preguntaUsuario"
+placeholder="Escribe tu pregunta">
+
+<button onclick="responder()">
+Enviar
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>

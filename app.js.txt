@@ -1,0 +1,62 @@
+function responder(){
+
+let pregunta =
+document.getElementById("preguntaUsuario").value;
+
+if(pregunta==""){
+return;
+}
+
+let chat =
+document.getElementById("chat-body");
+
+chat.innerHTML +=
+'<div class="user">'+pregunta+'</div>';
+
+let p = pregunta.toLowerCase();
+
+let respuesta = "";
+
+if(p.includes("misoginia")){
+
+respuesta =
+"La misoginia es una forma de rechazo, hostilidad o desprecio hacia las mujeres.";
+
+}
+
+else if(p.includes("odio")){
+
+respuesta =
+"Los discursos de odio son expresiones que buscan discriminar o atacar personas o grupos.";
+
+}
+
+else if(p.includes("ciberacoso")){
+
+respuesta =
+"El ciberacoso consiste en ataques repetitivos mediante plataformas digitales.";
+
+}
+
+else if(p.includes("doxxing")){
+
+respuesta =
+"El doxxing consiste en divulgar información personal sin autorización.";
+
+}
+
+else{
+
+respuesta =
+"Esta pregunta está fuera del alcance actual de la cartilla.";
+
+}
+
+chat.innerHTML +=
+'<div class="bot">'+respuesta+'</div>';
+
+document.getElementById("preguntaUsuario").value="";
+
+chat.scrollTop = chat.scrollHeight;
+
+}
